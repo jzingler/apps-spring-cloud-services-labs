@@ -6,4 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/<github-username>/app-config.git
+          uri: https://github.com/jzingler/apps-spring-cloud-services-labs-config
+          
+          
+management:
+  security:
+    enabled: false
